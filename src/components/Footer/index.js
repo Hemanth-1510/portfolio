@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>lakshman Reddy</Logo>
+        <Logo>Hemanth Kumar</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 lakshman Reddy. All rights reserved
+          &copy; 2025 Hemanth Kumar. All rights reserved
         </Copyright>
 
       </FooterWrapper>

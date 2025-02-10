@@ -1,19 +1,21 @@
 import { Javascript } from "@mui/icons-material";
+import vvitImage from '../images/vvit.png';
 
 export const Bio = {
-  name: "lakshman reddy",
+  name: "Hemanth Kumar",
   roles: [
     "Full Stack Developer",
     "tech enthusiast",
+    "Python Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/lakshman7781",
+  github: "https://github.com/Hemanth-1510",
   resume:
     "https://drive.google.com/file/d/1HLkvt_X5M49D3bQHM4nKkEMxvcH5hLiM/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/lakshman-bhavanam-6b7044259/",
-  twitter: "https://twitter.com/lakshmanbhavan7",
-  insta: "https://www.instagram.com/lakshman_bhavanam/",
+  linkedin: "https://www.linkedin.com/in/hemanth14/",
+  twitter: "https://twitter.com/Hemanth_1510",
+  insta: "https://www.instagram.com/hemanth_addagada/",
   
 };
 
@@ -74,28 +76,10 @@ export const skills = [
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
       
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-
-    ],
-  },
-  {
-    title: "DevOps",
-    skills: [
-      
-      
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      
-      
       
     ],
   },
+  
   
   
   {
@@ -131,14 +115,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img:"https://firebasestorage.googleapis.com/v0/b/portfolio-8ccd0.appspot.com/o/srkr.jpg?alt=media&token=e5f84b97-12d5-4d04-ad1d-d85e0dc3c4fc",
-    role: "junior software developer,SRKREC",
-    desc:"I am currently working as a junior software developer at SRKR Engineering College, Bhimavaram. I am responsible for developing and maintaining the college's website and other software applications.",
+    img:"",
+    role: "developer",
+    desc:"I am currently working as a intern in infosys spring board",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
-      "php",
+      "flask",
+      "flask-sqlalchemy",
     ],
   },
   // {
@@ -160,11 +145,11 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img:"https://firebasestorage.googleapis.com/v0/b/portfolio-8ccd0.appspot.com/o/srkr.jpg?alt=media&token=e5f84b97-12d5-4d04-ad1d-d85e0dc3c4fc",
-    school: "srkr engineering college, Bhimavarm",
+    img:vvitImage,
+    school: "Vasireddy Venkatadri Institute of Technolgy",
     date: "2022 - 2026",
-    grade: "8.9 CGPA [current]",
-    desc: "I am currently pursuing 2nd year btech  in Computer Science and Engineering at srkr engineering college, Bhimavaram. ",
+    grade: "8.8 CGPA [current]",
+    desc: "I am currently pursuing 3rd year btech  in Computer Science and Engineering at vvit, Guntur. ",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering ",
   },
   {
@@ -172,7 +157,7 @@ export const education = [
     img:"https://firebasestorage.googleapis.com/v0/b/portfolio-8ccd0.appspot.com/o/narayana.clg.png?alt=media&token=69267cb2-79d4-4f94-bf8c-2412b574eebf",
     school: "narayana junior college, vijawada",
     date: "2020-2022",
-    grade: "94.44%",
+    grade: "96%",
     desc: "I completed my intermediate  education at narayana junior college, vijayawada.",
     degree: "intermediate education",
   },
@@ -181,7 +166,7 @@ export const education = [
     img:"https://firebasestorage.googleapis.com/v0/b/portfolio-8ccd0.appspot.com/o/universal.png?alt=media&token=715039ac-db4d-4c72-bbeb-0a84392e6ae0",
     school: "universal high school, puaspadu",
     date: "2019-2020",
-    grade: "94.84%",
+    grade: "95%",
     desc: "I completed my class 10 education at universal high School, puaspadu.",
     degree: "class 10",
   },
@@ -195,22 +180,21 @@ export const projects = [
   
   {
     id: 0,
-    title: "Campus Online",
-    date: "feb 2024",
+    title: "Hackerank plagiarism detection ",
+    date: "dec 2024",
     description:
-      "capmus online is a platfoem for campus commerce and communication. It is a web application that allows students to buy and sell products within the campus. It also provides a platform for students to communicate with each other.",
+  "it find out the users who are copied in the given contest",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-8ccd0.appspot.com/o/Campus.png?alt=media&token=ccea6c73-2a57-4e10-925f-04f06d4bc0ac",
-    tags: ["php","Javascript","HTML","CSS"],
+    tags: ["python","flask","HTML","CSS"],
     category: "web app",
-    github: "https://github.com/lakshman7781/hackathon",
+    github: "https://github.com/Hemanth-1510/hackacthon-plagiarism",
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2020, text: "Started my journey" },
+  { year: 2021, text: "Founded JavaScript Mastery" },
+  { year: 2024, text: "Shared my projects with the world" },
+  { year: 2024, text: "Started my own platform" },
 ];
